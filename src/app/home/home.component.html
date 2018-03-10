@@ -36,7 +36,7 @@
             <input class="input_box" name="checkbox"  [checked]="termo" (change)="termo= !termo"  type="checkbox"  />
             Li e aceito os termos e condições acima.
             <br><br>
-            <button type="button" [disabled]="!termo" class="btn btn-warning btn-lg btn-block">ok,entendi</button>
+            <button type="button" [disabled]="!termo" class="btn btn-warning btn-lg btn-block" [routerLink]="['/form']" (click)="modalRef.hide()">ok,entendi</button>
           </div>
     </div>
     </ng-template>
