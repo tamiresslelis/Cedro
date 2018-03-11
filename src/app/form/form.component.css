@@ -1,0 +1,13 @@
+form{
+  padding-top: 40px;
+}
+
+.titulo {
+  text-align: center;
+}
+.opcoes{
+  text-align: center;
+}
+.form-check-label{
+  padding-right:  10px;
+}

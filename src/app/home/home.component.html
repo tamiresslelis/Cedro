@@ -16,7 +16,7 @@
      </p>
 
      <p>Gostaria de responder ao Perfil do investidor?</p>
-    <button type="button" class="btn btn-outline-success">SIM</button>
+    <button type="button" class="btn btn-outline-success" [routerLink]="['/form']" >SIM</button>
     <button type="button" class="btn btn-outline-danger" (click)="openModal(template)">NÃO</button>
 
     <ng-template #template>
