@@ -2,20 +2,21 @@
   "perguntas": [
   {
     "id": "pergunta-1",
-    "titulo": "Qual o seu comportamento em relação aos seus investimentos?",
+    "titulo": "Qual o seu comportamento em relação aos seus investimentos?"
 
   },
   {
     "id": "pergunta-2",
-    "titulo": "Por quanto tempo você deseja manter os seus investimentos?",
+    "titulo": "Por quanto tempo você deseja manter os seus investimentos?"
 
   },
   {
     "id": "pergunta-3",
-    "titulo": "Quantos % desses investimentos você pode precisar em um ano?",
+    "titulo": "Quantos % desses investimentos você pode precisar em um ano?"
 
-  },
-],
+  }
+  ],
+
   "opcoes": [
     {
       "id": "opcao-1.1",
@@ -39,12 +40,12 @@
       "perguntaId": "pergunta-2"
     },
     {
-      "id": "opcao-1.2",
+      "id": "opcao-2.2",
       "description": "até 1 a 3 anos",
       "perguntaId": "pergunta-2"
     },
     {
-      "id": "opcao-1.3",
+      "id": "opcao-2.3",
       "description": "de 1 a 3 anos",
       "perguntaId": "pergunta-2"
 
