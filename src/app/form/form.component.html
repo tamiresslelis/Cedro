@@ -1,8 +1,17 @@
 
 
+
+
 <form #f="ngForm" (ngSubmit)="onSubmit(f)">
 <h1>Perfil do investidor - questionário</h1>
-<app-perguntas></app-perguntas>
+<app-perguntas>
+    <app-pergunta>
+        <app-opcao></app-opcao>
+    </app-pergunta>
+    <app-pergunta>
+          <app-opcao></app-opcao>
+    </app-pergunta>
+</app-perguntas>
 
 <div class="form-group opcoes">
     <div class="form-check form-check-inline">

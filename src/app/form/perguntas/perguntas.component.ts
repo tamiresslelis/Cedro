@@ -10,8 +10,8 @@ import { PerguntasService } from '../perguntas.service'
 })
 export class PerguntasComponent implements OnInit {
 
-  perguntas: Pergunta[]
 
+  perguntas: Pergunta[]
   constructor(private perguntasService: PerguntasService) { }
  //ass
   ngOnInit() {

@@ -11,9 +11,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormComponent } from './form/form.component';
 import { PerguntasComponent } from './form/perguntas/perguntas.component';
-import { OpcoesComponent } from './form/perguntas/opcoes/opcoes.component';
 import { PerguntasService } from './form/perguntas.service';
 import { PerguntaComponent } from './form/perguntas/pergunta/pergunta.component';
+import { OpcaoComponent } from './form/perguntas/pergunta/opcao/opcao.component';
 
 
 
@@ -23,8 +23,8 @@ import { PerguntaComponent } from './form/perguntas/pergunta/pergunta.component'
     HomeComponent,
     FormComponent,
     PerguntasComponent,
-    OpcoesComponent,
     PerguntaComponent,
+    OpcaoComponent,
 
   ],
   imports: [

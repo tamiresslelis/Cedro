@@ -1,4 +1,6 @@
+import { Opcao } from './pergunta/opcao/opcao.model'
 export interface Pergunta {
-    id: string
+    id: number
     titulo: string
+    opcoes: Opcao[]
 }

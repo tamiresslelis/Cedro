@@ -1,6 +1,4 @@
-<a [routerLink]="['/perguntas',pergunta.id]">
 
-  {{pergunta.id}}
-  {{pergunta.titulo}}
-
-</a>
+<div *ngFor="let opcao of pergunta.opcoes" class="col-sm-6 col-xs-12">
+    <app-opcao [opcao]="opcao.description"></app-opcao>
+  </div>
