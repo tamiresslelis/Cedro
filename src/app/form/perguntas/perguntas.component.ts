@@ -18,7 +18,10 @@ export class PerguntasComponent implements OnInit {
 
     this.perguntasService
         .perguntas()
-        .subscribe(perguntas => this.perguntas = perguntas);
+        .subscribe(perguntas =>{
+          console.log(perguntas);
+          this.perguntas = perguntas
+        } );
 }
 
 }

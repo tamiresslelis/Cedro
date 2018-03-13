@@ -7,7 +7,7 @@ import { Pergunta } from '../pergunta.model'
 })
 export class PerguntaComponent implements OnInit {
 
-  @Input() pergunta:Pergunta
+  @Input() pergunta:pergunta
   constructor() { }
 
   ngOnInit() {
