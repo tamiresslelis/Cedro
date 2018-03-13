@@ -1,3 +1,10 @@
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  color: red;
+}
+
 form{
   padding-top: 40px;
 }
@@ -10,4 +17,8 @@ form{
 }
 .form-check-label{
   padding-right:  10px;
+}
+
+.col-sm-10{
+  padding-left: 200px;
 }

@@ -4,9 +4,9 @@ import { Pergunta } from '../perguntas/pergunta.model'
 import { PerguntasService } from '../perguntas.service'
 
 @Component({
-  selector: 'app-pergunta',
-  templateUrl: './pergunta.component.html',
-  styleUrls: ['./pergunta.component.css']
+  selector: 'app-perguntas',
+  templateUrl: './perguntas.component.html',
+  styleUrls: ['./perguntas.component.css']
 })
 export class PerguntasComponent implements OnInit {
 
@@ -15,7 +15,10 @@ export class PerguntasComponent implements OnInit {
   constructor(private perguntasService: PerguntasService) { }
  //ass
   ngOnInit() {
-    this.perguntas = this.perguntasService.perguntas().subscribe((perguntas: Pergunta[]) => this.perguntas = perguntas);
-  }
+
+    this.perguntasService
+        .perguntas()
+        .subscribe(perguntas => this.perguntas = perguntas);
+}
 
 }
