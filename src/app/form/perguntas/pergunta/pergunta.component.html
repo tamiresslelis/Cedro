@@ -1,5 +1,9 @@
   {{pergunta.titulo}}
-<div *ngFor="let opcao of pergunta.opcoes" class="col-sm-6 col-xs-12">
+<div class= "estrutura_perguntas" *ngFor="let opcao of pergunta.opcoes" >
 
-    <app-opcao [opcao]="opcao"></app-opcao>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="opcao" value="option">
+    <label class="form-check-label" for="inlineCheckbox1"><app-opcao [opcao]="opcao"></app-opcao></label>
   </div>
+
+</div>

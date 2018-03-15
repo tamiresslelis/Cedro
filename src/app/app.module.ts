@@ -14,6 +14,7 @@ import { PerguntasComponent } from './form/perguntas/perguntas.component';
 import { PerguntasService } from './form/perguntas.service';
 import { PerguntaComponent } from './form/perguntas/pergunta/pergunta.component';
 import { OpcaoComponent } from './form/perguntas/pergunta/opcao/opcao.component';
+import { ConfirmaCadastroComponent } from './confirma-cadastro/confirma-cadastro.component';
 
 
 
@@ -25,6 +26,7 @@ import { OpcaoComponent } from './form/perguntas/pergunta/opcao/opcao.component'
     PerguntasComponent,
     PerguntaComponent,
     OpcaoComponent,
+    ConfirmaCadastroComponent,
 
   ],
   imports: [

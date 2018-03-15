@@ -1,3 +1,3 @@
 export interface Opcao {
-    description: string;
+    descricao: string;
 }

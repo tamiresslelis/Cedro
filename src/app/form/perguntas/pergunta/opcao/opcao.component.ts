@@ -7,7 +7,7 @@ import { Opcao } from './opcao.model'
 })
 export class OpcaoComponent implements OnInit {
 
-  @Input() opcao:opcao
+  @Input() opcao:Opcao
   constructor() { }
   ngOnInit() {
   }

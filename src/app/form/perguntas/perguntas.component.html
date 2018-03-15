@@ -1,11 +1,11 @@
 
 <section class="content">
-  <div class="row">
+
 
           <div *ngFor="let pergunta of perguntas" class="col-sm-6 col-xs-12">
               <app-pergunta [pergunta]="pergunta"></app-pergunta>
-              <app-opcao *ngFor="let opcao of perguntas.opcoes" [opcao]="opcao.description"></app-opcao>
+              <app-opcao *ngFor="let opcao of perguntas.opcoes" [opcao]="opcao.descricao"></app-opcao>
           </div>
 
-        </div>
+
 </section>
